@@ -56,7 +56,7 @@ var allMails = "x";
 var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "",
+  password: "testuser",
   database: "PhladRian_Database",
 });
 connection.connect(function (error) {
